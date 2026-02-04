@@ -13,7 +13,7 @@ st.header("To the Love of My Life")
 # 1. Open and Rotate (Keep this as is)
 img = Image.open("RJ109494.JPG")
 rotated_image = img.rotate(90, expand=True) 
-st.image(rotated_image,caption="Our Special Moment (28-09-2025)",use_container_width=True)
+st.image(rotated_image,caption="Our Special Moment (28-05-2025)",use_container_width=True)
 #An interactive button
 if st.button("Click Me for a Surprise!"):
     st.write("You are my everything! ❤️❤️❤️")
@@ -21,6 +21,7 @@ if st.button("Click Me for a Surprise!"):
     st.markdown("### You are my favourite 'True'in the universe of Booleans!")
 
     st.write("I Love You more than Python loves indentation! 🐍❤️")
+
 
 
 
