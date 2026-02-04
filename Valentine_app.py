@@ -11,7 +11,7 @@ st.write("To my dearest husband, on this special day, I want to remind you how m
 #5.Special message
 st.header("To the Love of My Life")
 img = Image.open("RJ109494.JPG")
-rotated_image = img.rotate(-90,expand=True)
+rotated_image = img.rotate(90,expand=True)
 st.image(rotated_image,caption="Our Special Day",use_container_width=True)
 #An interactive button
 if st.button("Click Me for a Surprise!"):
@@ -20,6 +20,7 @@ if st.button("Click Me for a Surprise!"):
     st.markdown("### You are my favourite 'True'in the universe of Booleans!")
 
     st.write("I Love You more than Python loves indentation! 🐍❤️")
+
 
 
 
